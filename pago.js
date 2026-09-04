@@ -1,4 +1,4 @@
-const { ErrorPago } = require("./errores.js");
+const { ErrorPago } = require("./Errores.js");
 
 function procesarPagoAsync(monto, datosCliente) {
   return new Promise((resolve, reject) => {
