@@ -1,4 +1,4 @@
-const { ErrorInventario } = require('./errores.js');
+const { ErrorInventario } = require('./Errores.js');
 
 function consultarProducto(nombre, cantidad) {
     return new Promise((resolve, reject) => {
